@@ -4,7 +4,7 @@
 DECLARE 
     r_contact contacts%ROWTYPE;
 BEGIN
-    NULL;
+    SELECT * INTO r_contact FROM contacts;
 END;
     
 -- Cursor-based
