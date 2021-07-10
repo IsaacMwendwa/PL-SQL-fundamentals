@@ -4,7 +4,10 @@
 DECLARE 
     r_contact contacts%ROWTYPE;
 BEGIN
-    SELECT * INTO r_contact FROM contacts;
+    SELECT first_name, last_name, phone
+    INTO r_contact
+    FROM contacts WHERE contact_id = 100;
+    DBMS_OUTPUT.PUT_LINE(r_contact.first);
 END;
     
 -- Cursor-based
