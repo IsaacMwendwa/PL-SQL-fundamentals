@@ -9,6 +9,7 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE(l_message);
 END;
 
+-- Exception hnadling
 DECLARE 
     v_result NUMBER;
 BEGIN 
