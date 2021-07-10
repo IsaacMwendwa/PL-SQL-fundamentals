@@ -7,7 +7,7 @@ BEGIN
     SELECT first_name, last_name, phone
     INTO r_contact
     FROM contacts WHERE contact_id = 100;
-    DBMS_OUTPUT.PUT_LINE(r_contact.first);
+    DBMS_OUTPUT.PUT_LINE(r_contact.first_name, r_contact.last_name);
 END;
     
 -- Cursor-based
