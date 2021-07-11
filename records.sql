@@ -50,6 +50,20 @@ BEGIN
     r_person.last_name := 'Doe';
     
     -- insert a new person to table
-    INSERT INTO person_records VALUES r_person;
+    INSERT INTO person_records VALUES r_person;    
+END;
+
+-- update %ROWTYPE record
+DECLARE
+    r_person person_records%ROWTYPE;
+BEGIN
+    -- get data of person id 1
+    SELECT * INTO r_person FROM person_records WHERE person_id = 1;
+    
+    -- change person's last name
+    r_person.last_name := 'Smith';
+    
+    -- update the person
+    UPDATE person_records SET ROW = r_person WHERE person_id = r_person.person_id;
 END;
         
