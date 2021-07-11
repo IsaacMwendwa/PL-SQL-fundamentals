@@ -6,6 +6,7 @@ DECLARE
     l_leader VARCHAR2(100);
 BEGIN
     l_leader := l_business_partner;
+    --display console output
     DBMS_OUTPUT.PUT_LINE(l_leader);
 END;
 
