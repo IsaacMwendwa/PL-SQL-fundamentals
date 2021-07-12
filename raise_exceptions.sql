@@ -55,7 +55,7 @@ BEGIN
         END IF;
         EXCEPTION
             WHEN e_credit_too_high THEN
-                dbms_output.put_line('The credit is too high' || l_credit);
+                dbms_output.put_line('The credit is too high: ' || l_credit);
                 RAISE; -- reraise the exception
     END;
 EXCEPTION
@@ -66,7 +66,7 @@ EXCEPTION
         from customers;
         
         -- adjust the credit limit to the average
-        dbms_output.put_line('Adjusted credit to ' || l_credit);
+        dbms_output.put_line('Adjusted credit to: ' || l_credit);
     
         --  update credit limit
         UPDATE customers 
@@ -75,3 +75,5 @@ EXCEPTION
    
         COMMIT;
 END;
+
+SELECT * FROM customers WHERE customer_id = 100;
