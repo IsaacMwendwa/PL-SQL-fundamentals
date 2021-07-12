@@ -1,3 +1,5 @@
+SET SERVEROUTPUT ON;
+
 -- NO_DATA_FOUND exception
 DECLARE 
     l_name customers.name%TYPE;
@@ -8,4 +10,9 @@ BEGIN
     
     -- display customer name
     DBMS_OUTPUT.PUT_LINE('Customer name is: ' || l_name);
+    
+    -- Exception handling
+    EXCEPTION
+        WHEN NO_DATA_FOUND THEN
+            DBMS_OUTPUT.PUT_LINE('Customer: ' || l_customer_id || ' does not exist');    
 END;
