@@ -1,4 +1,4 @@
-SET SERVEROUTPUT ON;
+SET SERVEROUTPUT ON; -- Enable console output
 
 -- NO_DATA_FOUND exception
 DECLARE 
