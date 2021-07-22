@@ -9,7 +9,7 @@
 * [Acknowledgements](#Acknowledgements)
 
 ## Introduction
-This repo contains the code for various functionalities in PL/SQL, and in particular Oracle PL/SQL)
+This repo contains the code for various functionalities in PL/SQL, and in particular Oracle PL/SQL
 
 
 ## Prerequisites
@@ -33,4 +33,4 @@ Open the files and run the statements in Oracle SQL Developer
 
 
 ## Acknowledgements
-[Oracle Tutorial.com](https://www.oracletutorial.com)
+[Oracle Tutorial.com](https://www.oracletutorial.com/plsql-tutorial/)
