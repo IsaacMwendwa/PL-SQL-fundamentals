@@ -2,16 +2,17 @@
 
 ## Table of Contents
 * [Introduction](#Introduction)
-* [Pre-requisites](#Pre-requisites)
+* [Prerequisites](#Prerequisites)
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [Authors](#Authors)
 * [Acknowledgements](#Acknowledgements)
 
 ## Introduction
-This repo contains the Oracle SQL files for creating an Oracle database and its corresponding tables, and data loading and data manipulation using Oracle SQL.
+This repo contains the code for various functionalities in PL/SQL, and in particular Oracle PL/SQL)
 
-## Pre-requisites
+
+## Prerequisites
 You need to have the following software installed:
 * Oracle Database XE (preferably 18c Edition)
 * Oracle SQL Developer
@@ -33,6 +34,3 @@ Open the files and run the statements in Oracle SQL Developer
 
 ## Acknowledgements
 [Oracle Tutorial.com](https://www.oracletutorial.com)
-
-## Introduction
-This repo contains the code for various functionalities in PL/SQL, and in particular Oracle PL/SQL)
