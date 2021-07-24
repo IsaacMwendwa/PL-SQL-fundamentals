@@ -3,7 +3,7 @@
 ## Table of Contents
 * [Introduction](#Introduction)
 * [Prerequisites](#Prerequisites)
-* [Installation](#Installation)
+* [Installation]
 * [Usage](#Usage)
 * [Authors](#Authors)
 * [Acknowledgements](#Acknowledgements)
