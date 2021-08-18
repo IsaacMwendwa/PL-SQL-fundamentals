@@ -1,4 +1,4 @@
-# oracle-pl-sql-basics
+# PL-SQL-fundamentals
 
 ## Table of Contents
 * [Introduction](#Introduction)
